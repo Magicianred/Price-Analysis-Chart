@@ -1,0 +1,19 @@
+# Ignore all dotfiles...
+.*
+# except
+!.gitignore
+!.editorconfig
+!.scalafmt.conf
+
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+*.sublime-*
+*.iml

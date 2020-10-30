@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.css">
+
+    <title>Document</title>
+</head>
+
+<body onload="getProducts()">
+
+
+    <div id="the-basics">
+        <input id="inp"  class="typeahead" type="text" placeholder="Products">
+        <button type="button" onclick="findUrl()">Click Me!</button>
+    </div>
+    
+    <div id="chart" style="display:block;min-height: 1000;" >
+        <svg style=" overflow: visible;"></svg>
+    </div>
+
+
+
+
+    <script src="js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js"></script>
+    <script src="typeahead.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.js"></script>
+    <script src="the-basics.js"></script>
+    
+</body>
+
+</html>
