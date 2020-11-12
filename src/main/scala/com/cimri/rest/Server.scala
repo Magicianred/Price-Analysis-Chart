@@ -106,7 +106,7 @@ object Rest extends SprayJsonSupport with DefaultJsonProtocol with LazyLogging {
             func(url)
           )
           case Failure(e) => {
-            logger.error(s"Failed to insert a person", e)
+            logger.error(s"Failed to insert a product", e)
             complete(StatusCodes.InternalServerError)
           }
         }
