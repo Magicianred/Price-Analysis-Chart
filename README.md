@@ -47,3 +47,4 @@ docker-compose run database bash
 psql --host=database --username=cimri --dbname=database  
 CREATE TABLE producturl(url TEXT PRIMARY KEY,title TEXT);
 ```
+*To change settings, you can edit the docker-compose.yml file as needed.*
