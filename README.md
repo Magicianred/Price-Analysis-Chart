@@ -1,5 +1,5 @@
 ## Project Overview
-It is a price analysis chart implementation based on the one [cimri.com](https://www.cimri.com/) employs. In this implemenation, chart shows the **minimum prices per store** instead of the minimum price overall.
+It is a price analysis chart implementation based on the one [cimri.com](https://www.cimri.com/) employs for products. In this implemenation, chart shows the **minimum prices per store** instead of the minimum price overall.
 ![alt text](https://github.com/mrabiabrn/shops-prices-table/blob/main/project-overview.PNG)
 
 
