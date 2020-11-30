@@ -19,7 +19,6 @@ run kafka: docker-compose up -d kafka1
 docker exec -it resources_kafka1_1 kafka-topics --zookeeper zoo1:2181 --create --topic new-topic --partitions 1 --replication-factor 1 
 ```
 NOTE: When Kafka is interrupted when consumers are consuming, we need to reset offsets with the command below
-To Reset Offsets
 ```
 docker exec -it resources_kafka1_1 kafka-consumer-groups --bootstrap-server localhost:9092 --group consumer-consumer-1 --topic new-topic --reset-offsets --to-earliest --execute
 ```
