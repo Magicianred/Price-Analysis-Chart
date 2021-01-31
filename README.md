@@ -1,4 +1,4 @@
-## Objective
+## Objective 
 It is a price analysis chart implementation based on the one [cimri.com](https://www.cimri.com/) employs for products as seen below. 
 
 ![alt text](https://github.com/mrabiabrn/shops-prices-table/blob/main/priceanalysis.PNG)
